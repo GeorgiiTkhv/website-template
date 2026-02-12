@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="pageTitle">GreenScape Landscaping</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="top">
+  <div class="container nav">
+
+    <a class="logo" id="brandName" href="#top"></a>
+
+    <nav class="nav-links" id="mainNav"></nav>
+
+    <div class="nav-actions">
+      <a class="btn-outline-dark" id="headerPhone" href=""></a>
+      <a class="btn-primary" id="headerCTA" href="#contact"></a>
+    </div>
+
+    <button class="burger" aria-label="Open menu" aria-expanded="false" type="button">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileNav" hidden></div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="container hero-content">
+
+    <div class="hero-text animate">
+      <h1 id="heroTitle"></h1>
+      <p id="heroSubtitle"></p>
+
+      <div class="hero-buttons">
+        <a class="btn-primary" id="heroPrimaryBtn" href="#contact"></a>
+        <a class="btn-outline" id="heroSecondaryBtn" href="#projects"></a>
+      </div>
+
+      <div class="trust" id="trustBadges"></div>
+    </div>
+
+
+        <!-- QUICK QUOTE -->
+    <form class="quote-box animate" id="quickQuoteForm">
+      <h3 id="quoteTitle">Get a Quick Quote</h3>
+
+      <label>Name</label>
+      <input id="qqName" type="text" placeholder="Your name" required />
+
+      <label>Phone</label>
+      <input id="qqPhone" type="tel" placeholder="(555) 123-4567" required />
+
+      <label>Zip Code</label>
+      <input id="qqZip" type="text" placeholder="60007" required />
+
+      <label>Service Needed</label>
+      <select id="quoteServices"></select>
+
+      <button class="btn-primary btn-full" id="quoteBtn" type="submit">Submit</button>
+      <div class="small-note" id="quoteNote">Most estimates delivered in 24–48 hours.</div>
+    </form>
+
+  </div>
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+  <div class="container">
+
+    <div class="section-head animate">
+      <h2 id="servicesTitle"></h2>
+      <p id="servicesSubtitle"></p>
+    </div>
+
+    <div class="service-grid" id="servicesGrid"></div>
+
+  </div>
+</section>
+
+
+<!-- ================= PROJECTS / CAROUSEL ================= -->
+<section class="projects" id="projects">
+  <div class="container">
+
+    <div class="section-head center animate">
+      <h2 id="projectsTitle"></h2>
+      <p id="projectsSubtitle"></p>
+    </div>
+
+    <div class="carousel animate">
+
+      <button class="carousel-btn prev" type="button">
+        <span>‹</span>
+      </button>
+
+      <div class="carousel-viewport" id="carouselViewport">
+
+        <div class="carousel-track" id="carouselTrack">
+          <!-- Slides injected -->
+        </div>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+
+      </div>
+
+      <button class="carousel-btn next" type="button">
+        <span>›</span>
+      </button>
+
+    </div>
+
+    <p class="estimate-note" id="projectsNote"></p>
+
+  </div>
+</section>
+
+
+<!-- ================= PRICING + REVIEWS ================= -->
+<section class="pricing" id="reviews">
+  <div class="container">
+
+    <div class="split">
+
+      <div class="left animate">
+
+        <div class="rating">
+          <div class="rating-score" id="ratingScore"></div>
+          <div class="rating-sub" id="ratingSub"></div>
+        </div>
+
+        <div class="pricing-grid" id="pricingGrid"></div>
+
+      </div>
+
+
+      <div class="right animate" id="testimonialsGrid"></div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="container">
+
+    <div class="section-head center animate">
+      <h2 id="contactTitle"></h2>
+      <p id="contactSubtitle"></p>
+    </div>
+
+
+    <div class="contact-grid animate">
+
+      <!-- LEFT -->
+      <div class="contact-leftCard">
+
+        <div class="contact-headline">
+          <h3 id="contactHeadline"></h3>
+          <p class="muted" id="contactText"></p>
+
+          <div class="contact-meta" id="contactMeta"></div>
+        </div>
+
+
+        <div class="map-card">
+          <iframe id="contactMap"></iframe>
+
+          <div class="map-badge">
+            <span class="dot"></span>
+            <span id="mapBadge"></span>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- RIGHT -->
+      <div class="contact-formCard">
+
+        <h3 id="formTitle"></h3>
+        <p class="muted" id="formSubtitle"></p>
+        <form class="contact-form" id="contactForm">
+          <input id="cfName" placeholder="Your Name" required>
+          <input id="cfEmail" placeholder="Email" type="email" required>
+          <input id="cfPhone" placeholder="Phone" required>
+          <input id="cfZip" placeholder="Zip Code" required>
+
+          <button class="btn-primary btn-full" id="formBtn" type="submit">Get a Quote</button>
+          <div class="small-note" id="formNote">Most estimates delivered in 24–48 hours.</div>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>
+    © <span id="year"></span>
+    <span id="footerName"></span>
+  </p>
+</footer>
+
+
+<!-- ================= SCRIPTS ================= -->
+<script src="content.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
