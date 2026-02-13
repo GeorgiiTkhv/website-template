@@ -214,7 +214,7 @@ window.SITE_DATA = {
     title: "Get a Free Quote Today",
     subtitle: "Fast estimates — usually within 24–48 hours.",
 
-    headline: "We’re local to ${company.location}",
+   headline: "We’re local to {location}",
     text: "Call, message, or request a quote — we reply fast.",
 
    map: {
@@ -278,6 +278,7 @@ window.SITE_DATA = {
       value: c.location
     }
   ];
+  data.contact.headline = data.contact.headline.replace("{location}", c.location ?? "");
 
   /* ---------- Page Title ---------- */
   if (data.page?.titleTemplate) {
