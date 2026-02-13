@@ -6,7 +6,7 @@
 window.SITE_DATA = {
 
   api: {
-    baseUrl: "http://localhost:3000"
+    baseUrl: ""
   },
   /* =====================================================
      COMPANY INFO (MAIN CONTROL PANEL)
@@ -17,7 +17,7 @@ window.SITE_DATA = {
     phoneRaw: "+15551234567",
     email: "info@greenscape.com",
     location: "Houston, TX",
-    website: "https://greenscape.com"
+    website: ""
   },
 
 
@@ -214,7 +214,7 @@ window.SITE_DATA = {
     title: "Get a Free Quote Today",
     subtitle: "Fast estimates — usually within 24–48 hours.",
 
-    headline: "We’re local to Chicagoland",
+    headline: "We’re local to {location}",
     text: "Call, message, or request a quote — we reply fast.",
 
    map: {
