@@ -227,13 +227,17 @@
         .join("");
     }
 
-    const testGrid = $("testimonialsGrid");
+    /*const testGrid = $("testimonialsGrid");
     if (testGrid) {
       testGrid.innerHTML = (rp.testimonials ?? [])
         .map(
           (t) => `
         <div class="testimonial">
-          <div class="avatar"></div>
+        
+          <div class="avatar-holder">
+            <div class="avatar"></div>
+          </div>
+          
           <div>
             <p class="quote">${t.quote}</p>
             <p class="byline">${t.by}</p>
@@ -242,7 +246,7 @@
       `
         )
         .join("");
-    }
+    }*/
   }
 
   // ---------- contact ----------

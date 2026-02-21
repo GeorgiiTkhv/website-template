@@ -196,12 +196,12 @@ window.SITE_DATA = {
 
     testimonials: [
       {
-        quote: "Our yard has never looked better! Excellent service and attention to detail.",
-        by: "— Sarah M., Glenview"
+        quote: "These guys showed up when they said they would, did a really great job on cleaning our gutters and didn’t leave any mess behind…even hosed off my flower bed! Would definitely recommend and will be using them again before winter!",
+        by: "— Danielle Zdeb"
       },
       {
-        quote: "Professional and reliable. They showed up on time and nailed the patio lighting.",
-        by: "— James P., Naperville"
+        quote: "Would definitely use BrewCity again. Alex was great! Took down a huge tree from my yard. I will be calling again for interior painting. Thanks Alex!",
+        by: "— Janet S"
       }
     ]
   },
