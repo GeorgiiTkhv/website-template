@@ -492,7 +492,8 @@ footer{
   background:#0b1220;
   color: rgba(255,255,255,.75);
   text-align:center;
-  padding: 18px;
+  padding: 9px;
+  font-size: 7px;
 }
 
 /* Animations */
@@ -708,4 +709,9 @@ background-color: black;
 }
 .projects{
   overflow-x: hidden;
+}
+
+#contact{
+   background-image: url("images\contact.jpeg");
+    background-size: cover;
 }
