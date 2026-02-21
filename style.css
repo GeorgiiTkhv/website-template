@@ -712,6 +712,6 @@ background-color: black;
 }
 
 #contact{
-   background-image: url("images/contact.jpeg");
+   background-image: linear-gradient(to bottom, rgba(11, 18, 32, 0.55), rgba(11, 18, 32, 0.75)), url("images/contact.jpeg");
     background-size: cover;
 }
