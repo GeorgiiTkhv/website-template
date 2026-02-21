@@ -12,11 +12,11 @@ window.SITE_DATA = {
      COMPANY INFO (MAIN CONTROL PANEL)
      ===================================================== */
   company: {
-    name: "Test Company Landscaping",
-    phone: "(555) 123-4567",
-    phoneRaw: "+15551234567",
-    email: "info@greenscape.com",
-    location: "Houston, TX",
+    name: "BrewCity Landscaping & Remodeling LLC",
+    phone: "+1 414 399 2705",
+    phoneRaw: "+14143992705",
+    email: "quotes@BrewCity.com",
+    location: "2269 S 69th St, West Allis, WI 53219",
     website: ""
   },
 
@@ -25,7 +25,7 @@ window.SITE_DATA = {
      PAGE META (AUTO-GENERATED)
      ===================================================== */
   page: {
-    titleTemplate: "{name} — Professional Lawn & Landscape"
+    titleTemplate: "{name}"
   },
 
 
