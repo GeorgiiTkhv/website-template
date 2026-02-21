@@ -275,7 +275,8 @@ window.SITE_DATA = {
     },
     {
       label: "Serving",
-      value: c.location
+      //value: c.location
+      value: "Milwaukee Area",
     }
   ];
   data.contact.headline = data.contact.headline.replace("{location}", c.location ?? "");
