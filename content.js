@@ -58,7 +58,7 @@ window.SITE_DATA = {
      HERO
      ===================================================== */
   hero: {
-    title: "Landscapes that feel like home.",
+    title: "Landscaping and remodeling done right.",
     subtitle: "Design, install, and maintenance. Licensed & insured. Fast estimates.",
 
     buttons: {
@@ -214,7 +214,7 @@ window.SITE_DATA = {
     title: "Get a Free Quote Today",
     subtitle: "Fast estimates — usually within 24–48 hours.",
 
-   headline: "We’re local to {location}",
+   headline: "We’re located at {location}",
     text: "Call, message, or request a quote — we reply fast.",
 
    map: {
